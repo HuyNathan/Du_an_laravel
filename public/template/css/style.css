@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif !important;
+}
+.wrap-menu-desktop {
+    position: relative; /* Đặt position thành relative để sử dụng z-index */
+    z-index: 10; /* Đặt z-index cao hơn slider */
+}
+.slick-slider .slick-slide {
+    height: 600px; /* Thay đổi chiều cao tùy ý */
+    width: 100%; /* Đảm bảo slider chiếm toàn bộ chiều rộng */
+}
+.icon-header-item:hover .customer-name {
+    color: #ffcc00; /* Màu chữ sáng lên khi hover */
+    transition: color 0.3s; /* Hiệu ứng chuyển màu */
+}
+
+.icon-header-item:hover i {
+    color: #ffcc00; /* Màu của biểu tượng cũng sáng lên khi hover */
+    transition: color 0.3s; /* Hiệu ứng chuyển màu */
+}
+.logout-icon {
+color: black; /* Màu mặc định là đen */
+transition: color 0.3s; /* Hiệu ứng chuyển màu mượt mà */
+}
+
+.logout-icon:hover {
+color: #ffcc00; /* Màu khi di chuột qua là vàng */
+}
+
+/* Thêm viền, khoảng cách, và đổ bóng cho các mục */
+.isotope-item {
+    margin: 15px; /* Khoảng cách giữa các mục */
+    border: 1px solid #e0e0e0; /* Viền màu xám nhạt */
+    border-radius: 10px; /* Bo tròn viền */
+    overflow: hidden; /* Đảm bảo các phần tử bên trong không bị tràn ra ngoài */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng nhẹ */
+    background-color: #ffffff; /* Màu nền trắng cho các mục */
+    padding: 10px; /* Khoảng cách bên trong */
+}
+.wrap-input1.w-full.p-b-4 {
+    margin-left: 20px;
+}
+/* Tạo khoảng cách đều giữa các mục trong lưới */
+.row.isotope-grid {
+    gap: 10px; /* Khoảng cách giữa các mục trong hàng */
+    margin-left: 100px;
+    
+}
+.stext-301 {
+    font-size: 24px; /* Cỡ chữ tiêu đề */
+    font-weight: bold; /* Đậm hơn */
+}
+
+.stext-107 {
+    font-size: 16px; /* Cỡ chữ cho văn bản */
+    line-height: 1.5; /* Khoảng cách dòng */
+}
+
+.p-t-20 {
+    padding-top: 20px; /* Tăng khoảng cách trên */
+}
+
+.mb-3 {
+    margin-bottom: 16px; /* Tăng khoảng cách dưới */
+}
+
+.text-center {
+    text-align: center; /* Căn giữa văn bản */
+}
+
+
